@@ -1,0 +1,3 @@
+[submodule "deep-learning/pytorch/poems/rnn-poem-guide"]
+	path = deep-learning/pytorch/poems/rnn-poem-guide
+	url = https://github.com/leonyangdev/rnn-poem-guide
