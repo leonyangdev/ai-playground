@@ -486,3 +486,6 @@ models
 # !logo.png
 # !README.pdf
 # !transformer/translation-transformer/data/raw/cmn.txt
+
+
+nlp/product_classification_old
