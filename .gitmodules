@@ -1,3 +1,6 @@
 [submodule "deep-learning/pytorch/poems/rnn-poem-guide"]
 	path = deep-learning/pytorch/poems/rnn-poem-guide
 	url = https://github.com/leonyangdev/rnn-poem-guide
+[submodule "nlp/product_classification"]
+	path = nlp/product_classification
+	url = https://github.com/leonyangdev/product-classification.git
