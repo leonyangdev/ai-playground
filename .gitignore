@@ -488,4 +488,4 @@ models
 # !transformer/translation-transformer/data/raw/cmn.txt
 
 
-nlp/product_classification_old
+nlp/product_classification_oldnlp/demo/data/
