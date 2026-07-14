@@ -430,6 +430,10 @@ site/
 !**/package.json
 !**/package-lock.json
 
+# Allow VitePress public directory assets (override image rules for documentation)
+!deep-learning/digit_recognizer/book/public/
+!deep-learning/digit_recognizer/book/public/**
+
 # Local configuration files
 local_config.py
 local_settings.py
@@ -493,3 +497,9 @@ models
 
 
 nlp/product_classification_oldnlp/demo/data/
+
+# ==== VitePress Documentation Assets (Override rules above) ====
+# Re-include specific directories that need media files for documentation
+!deep-learning/digit_recognizer/book/public/
+!deep-learning/digit_recognizer/book/public/images/
+!deep-learning/digit_recognizer/book/public/images/*
