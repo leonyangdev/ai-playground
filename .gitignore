@@ -426,7 +426,8 @@ site/
 # Pipfile.lock
 # poetry.lock
 
-# Allow package-lock.json for npm caching in CI/CD
+# Allow package.json and package-lock.json for Node.js projects
+!**/package.json
 !**/package-lock.json
 
 # Local configuration files
