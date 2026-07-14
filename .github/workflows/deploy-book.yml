@@ -33,9 +33,9 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
           cache: 'npm'
-          cache-dependency-path: deep-learning/digit_recognizer/book/package.json
+          cache-dependency-path: deep-learning/digit_recognizer/book/package-lock.json
 
       - name: Install dependencies
         working-directory: deep-learning/digit_recognizer/book

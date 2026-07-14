@@ -426,6 +426,9 @@ site/
 # Pipfile.lock
 # poetry.lock
 
+# Allow package-lock.json for npm caching in CI/CD
+!**/package-lock.json
+
 # Local configuration files
 local_config.py
 local_settings.py
